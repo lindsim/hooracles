@@ -12,7 +12,7 @@ fs.readFile('lyrics.txt', 'utf8', function (err,data) {
 	else {
 		
 		var dictionary = makeDict(data.replace(/[^a-zA-Z']/g," ").replace(/\s+/g, " ").toLowerCase().split(" "));
-		for (var x = 0; x < 100; x++){
+		for (var x = 0; x < 10; x++){
 			console.log(makeFortune(dictionary)+"." + "   ");
 		}
 	}
@@ -43,7 +43,7 @@ var makeFortune = function(dict, num){
 	var first = choose(keys);
 	var current = choose(dict[first]);
 	var fortune = first;
-	var minLength = 60;
+	var minLength = 300;
 
 	while(fortune.length < minLength){
 	  	fortune = fortune + " " + current;
