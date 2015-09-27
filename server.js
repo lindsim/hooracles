@@ -1,4 +1,4 @@
-//get express 
+//get express
 var express = require('express')
 var app = express();
 
@@ -23,10 +23,9 @@ app.get('/fortunes', function(req, res) {
 	res.json(fortunes)
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(8080, function () {
 			var host = server.address().address;
   			var port = server.address().port;
 
 console.log('Listening at http://%s:%s', host, port);
 });
-
