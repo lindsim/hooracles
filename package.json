@@ -1,11 +1,7 @@
 {
   "name": "hooracles",
   "description": "hall and oates fortune app",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"error: no test specified\" && exit 1"
-  },
-  "start":"npm start",
+  "version": "0.0.0",
   "engines": {
     "node": "0.10.38"
   },

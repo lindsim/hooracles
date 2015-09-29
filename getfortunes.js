@@ -23,13 +23,13 @@ app.get('/fortunes', function(req, res) {
 	res.json(fortunes)
 });
 
-var server = app.listen(process.env.PORT || 5000, function(){
-	var host = server.address().address;
-   			var port = server.address().port;
- console.log('Listening at http://%s:%s', host, port);
-});
 
-// var server = app.listen(8080, function () {
+
+var port = process.env.PORT || 3000;
+    app.listen(port);
+
+
+// var server = app.listen(3000, function () {
 // 			var host = server.address().address;
 //   			var port = server.address().port;
 //
