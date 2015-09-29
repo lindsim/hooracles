@@ -21,6 +21,17 @@ button {
 	width: 100px
 }
 
+p {
+	z-index: 1;
+	position:absolute;
+	top: 200px;
+	padding: 0px 0px 14px 14px;
+	text-align: center;
+	height: calc;
+	width: 728px;
+	background-color: white;
+}
+
 img {
 	position:absolute;
 	top: 0px;
