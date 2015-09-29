@@ -2,6 +2,10 @@
   "name": "hooracles",
   "description": "hall and oates fortune app",
   "version": "0.0.0",
+  "main": "getfortunes.js",
+  "scripts":{
+    "start":"node getfortunes.js"
+  },
   "engines": {
     "node": "0.10.38"
   },
