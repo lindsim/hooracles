@@ -24,17 +24,10 @@ button {
 img {
 	position:absolute;
 	top: 0px;
-	
 }
 
-
-p {
-	z-index: 1;
-	position:absolute;
-	top: 200px;
-	padding: 0px 0px 14px 14px;
-	text-align: center;
-	height: calc;
-	width: 728px;
-	background-color: white;
+.end {
+	position: absolute;
+	top: 410px;
+	font-size: 12px;
 }
