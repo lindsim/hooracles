@@ -3,6 +3,9 @@
   "description": "hall and oates fortune app",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "npm start"
+  },
   "engines": {
     "node": "4.1.1"
   },
