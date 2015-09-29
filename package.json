@@ -1,15 +1,14 @@
 {
   "name": "hooracles",
   "description": "hall and oates fortune app",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
-    "start": "npm start"
+    "test": "echo \"error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "4.1.1"
+    "node": "0.10.38"
   },
   "dependencies": {
-    "express": "~4.13.1"
+    "express": "^4.13.1"
   }
 }
